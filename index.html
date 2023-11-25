@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Aarav🤖</title>
+  </head>
+  <body>
+    <style>
+      .rw-conversation-container .rw-header {
+        background-color: rgb(255, 166, 0);
+      }
+      .rw-conversation-container .rw-messages-container .rw-message .rw-client {
+        background-color: rgba(128, 128, 128, 0.823);
+      }
+      .rw-conversation-container
+        .rw-messages-container
+        .rw-message
+        .rw-response {
+        background-color: rgba(255, 166, 0, 0.581);
+      }
+      .rw-launcher {
+        background-color: rgb(255, 166, 0);
+      }
+    </style>
+    <script>
+      !(function () {
+        let e = document.createElement("script"),
+          t = document.head || document.getElementsByTagName("head")[0];
+        (e.src =
+          "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.js"),
+          // Replace 1.x.x with the version that you want
+          (e.async = !0),
+          (e.onload = () => {
+            window.WebChat.default(
+              {
+                initpayload: "/greet",
+                customData: { language: "en" },
+                socketUrl: "http://localhost:5005",
+                title: "Aarav here🤖",
+                subtitle: "Say hi, And get started!",
+                // add other props here
+              },
+              null
+            );
+          }),
+          t.insertBefore(e, t.firstChild);
+      })();
+    </script>
+  </body>
+</html>
