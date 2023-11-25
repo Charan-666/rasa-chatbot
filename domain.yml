@@ -63,7 +63,7 @@ responses:
     - text: "fee structure for merit quota students is 90.050(ninty thousand fifty) it varies year by year and also depends according to the stream opted,before that please go through the kcet guidance regared the fee,and for further more details please do contact our accountancy section in the college."
 
   utter_hostel:
-    - text: "yes! sjcit do provide both girls as well as boys hostel facility both are walkable distance from the main college campus"
+    - text: "yes, sjcit do provide both girls as well as boys hostel facility both are walkable distance from the main college campus"
 
 session_config:
   session_expiration_time: 60
